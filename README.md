@@ -25,10 +25,9 @@ PDF -> Page Text & Metadata -> Semantic Chunks -> NumPy Embeddings & Cosine Simi
 2. **Set your Gemini API key** (or enter it in the Streamlit sidebar):
    ```bash```
    export GEMINI_API_KEY="your_api_key_here"
-   ```[cite: 1, 2, 6]```
-   *(On Windows PowerShell: `$env:GEMINI_API_KEY="your_api_key_here"`)*[cite: 2]
+   *(On Windows PowerShell: `$env:GEMINI_API_KEY="your_api_key_here"`)*
 
 3. **Launch the Streamlit app:**
    ```bash```
    streamlit run app.py
-   ```[cite: 3, 6]```
+
