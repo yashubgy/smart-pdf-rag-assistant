@@ -12,24 +12,23 @@ A Python-based Retrieval-Augmented Generation (RAG) application that lets users 
 
 ## How the Pipeline Works
 
-```text
 PDF -> Page Text & Metadata -> Semantic Chunks -> NumPy Embeddings & Cosine Similarity -> Context + Citations -> Gemini Streaming Answer
-```[cite: 1, 3, 4, 5]
+```[cite: 1, 3, 4, 5]```
 
 ## Setup & Run
 
 1. **Install dependencies:**
-   ```bash
+   ```bash```
    pip install pypdf numpy sentence-transformers google-genai streamlit
-   ```[cite: 1, 3, 5, 6]
+   ```[cite: 1, 3, 5, 6]```
 
 2. **Set your Gemini API key** (or enter it in the Streamlit sidebar):
-   ```bash
+   ```bash```
    export GEMINI_API_KEY="your_api_key_here"
-   ```[cite: 1, 2, 6]
+   ```[cite: 1, 2, 6]```
    *(On Windows PowerShell: `$env:GEMINI_API_KEY="your_api_key_here"`)*[cite: 2]
 
 3. **Launch the Streamlit app:**
-   ```bash
+   ```bash```
    streamlit run app.py
-   ```[cite: 3, 6]
+   ```[cite: 3, 6]```
